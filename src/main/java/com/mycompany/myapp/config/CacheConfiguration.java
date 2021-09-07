@@ -50,6 +50,35 @@ public class CacheConfiguration {
             createCache(cm, com.mycompany.myapp.domain.User.class.getName() + ".authorities");
             createCache(cm, com.mycompany.myapp.domain.PersistentToken.class.getName());
             createCache(cm, com.mycompany.myapp.domain.User.class.getName() + ".persistentTokens");
+            createCache(cm, com.mycompany.myapp.domain.TenantType.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Tenant.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.Tenant.class.getName() + ".tenantProperties");
+            createCache(cm, com.mycompany.myapp.domain.Tenant.class.getName() + ".tenantUsers");
+            createCache(cm, com.mycompany.myapp.domain.Tenant.class.getName() + ".workQueueTenants");
+            createCache(cm, com.mycompany.myapp.domain.URLType.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.URL.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.TenantPropertyKey.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.TenantPropertyKey.class.getName() + ".tenantProperties");
+            createCache(cm, com.mycompany.myapp.domain.TenantProperty.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.LanUser.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.LanUser.class.getName() + ".tenantUsers");
+            createCache(cm, com.mycompany.myapp.domain.TenantUser.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.TenantUser.class.getName() + ".workQueueTenantUsers");
+            createCache(cm, com.mycompany.myapp.domain.WorkTemplate.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.WorkTemplate.class.getName() + ".workTemplateItems");
+            createCache(cm, com.mycompany.myapp.domain.WorkTemplateItem.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.WorkTemplateItem.class.getName() + ".workTemplateItemPreReqs");
+            createCache(cm, com.mycompany.myapp.domain.WorkTemplateItemPreReq.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.WorkQueueTenant.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.WorkQueueTenant.class.getName() + ".workQueueTenantData");
+            createCache(cm, com.mycompany.myapp.domain.WorkQueueTenant.class.getName() + ".workQueueTenantPreReqs");
+            createCache(cm, com.mycompany.myapp.domain.WorkQueueTenantData.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.WorkQueueTenantPreReq.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.WorkQueueTenantUser.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.WorkQueueTenantUser.class.getName() + ".workQueueTenantUserData");
+            createCache(cm, com.mycompany.myapp.domain.WorkQueueTenantUser.class.getName() + ".workQueueTenantUserPreReqs");
+            createCache(cm, com.mycompany.myapp.domain.WorkQueueTenantUserData.class.getName());
+            createCache(cm, com.mycompany.myapp.domain.WorkQueueTenantUserPreReq.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
