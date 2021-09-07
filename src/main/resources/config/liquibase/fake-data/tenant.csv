@@ -1,11 +1,5 @@
-id;name;active;provisioned
-1;Representative;true;true
-2;Metal magnetic;true;true
-3;violet Trafficway;true;true
-4;matrix;false;true
-5;Integrated Multi-tiered;false;true
-6;platforms;true;true
-7;Profound;false;false
-8;Home;true;false
-9;quantifying program;true;true
-10;interactive Fiji;false;false
+id;name;active;provisioned;tenant_type_id
+1;Elsie;false;false;1
+2;Amby;false;false;1
+3;Philly;false;false;2
+4;Mercy;false;false;2
