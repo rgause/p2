@@ -5,7 +5,7 @@ id;task;required_to_complete;sequence_order;work_template_id
 4;AWS Provisioning;true;4;1
 5;Save Tenant URL's;true;5;1
 6;Mark Tenant Complete;true;6;1
-7;Add User to Tenant Group;true;1;2
-8;Add User to Tenant Group Complete;true;2;2
+7;Add User to Tenant Group;false;1;2
+8;Add User to Tenant Group Complete;false;2;2
 9;AWS User Provisioning;true;3;2
 10;Mark User Complete;true;4;2
